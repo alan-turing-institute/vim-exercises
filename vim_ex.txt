@@ -1,5 +1,14 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Lesson 1.1: Moving the cursor
+## hjkl
+
+To move the cursor, press the h,j,k,l keys as indicated below.
+
+  ^
+  k		    Hint:  The h key is at the left and moves left.
+< h	 l >		   The l key is at the right and moves right.
+  j			   The j key looks like a down arrow.
+  v
+
 Instructions: Follow the line around the screen using h, j, k and l.
 |             Hint: if you accidentally start typing text, press Esc          
 |       .-------.   to leave insert mode and u to undo any changes.           
@@ -19,9 +28,18 @@ Instructions: Follow the line around the screen using h, j, k and l.
                           |             |             with j.                 
                           |             |                                     
                           \_____________/                                     
-                                                                              
-                                                                              
-                                                                              
+
+
+The arrow keys also work, but hjkl are faster because they are on the home row.
+You'll learn them surprisingly quickly, I promise.                                                         
+                               
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## wbe
+
+To jump to the first character of the next word, hit w. To do the same movement
+backwards to the previous word, hit b. To go to the end end of the next word,
+hit e. Try moving about this paragraph using w, e an b.
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Lession 1.3: Text editing - deletion
 Instructions: Correct the lines of text below by deleting the
@@ -154,7 +172,11 @@ O let us be married, too KKKKK long we have tarried
 But what shall we do WWWWW for a ring?" The eternal question.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Lesson 2.4: Using a count for a motion
+## repetition
+
+Run one command multiple times by first hitting a number and then the key(s)
+for that command. For instance, "5h" goes left by five characters, and "2w"
+forward by two words. This works with all commands.
 
 Try to move from the point marked with an 'A' above it through the other
 capital letters of the alphabet im one command (e.g. 3e or 2w).
@@ -177,6 +199,8 @@ Zero One Two Three Four Five Six Seven Eight Nine Ten
         C          A                        B
         ^ moves to the first non-whitespace char on a line 
 
+A                          $
+$ moves to the end of a line 
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
