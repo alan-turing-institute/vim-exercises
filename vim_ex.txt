@@ -202,6 +202,35 @@ Zero One Two Three Four Five Six Seven Eight Nine Ten
 A                          $
 $ moves to the end of a line 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## gg G
+
+gg goes to the beginning of the file, G to the end. 38g goes to line number 38.
+Give it a try now.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## / nN
+
+     ** Type  /  followed by a phrase to search for the phrase. **
+
+  1. In Normal mode type the  /  character.  Notice that it and the cursor
+     appear at the bottom of the screen as with the  :	command.
+
+  2. Now type 'errroor' <ENTER>.  This is the word you want to search for.
+
+  3. To search for the same phrase again, simply type  n .
+     To search for the same phrase in the opposite direction, type  N .
+
+--->  "errroor" is not the way to spell error;  errroor is an error.
+NOTE: When the search reaches the end of the file it will continue at the
+      start, unless the 'wrapscan' option has been reset.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## f
+
+f followed by a char jumps to the next occurrence of that char on the same line
+
+Use f to jump to this 7 and then to this 9 and then to this H and then to this z
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Lesson 2.5: Using a count to delete more
