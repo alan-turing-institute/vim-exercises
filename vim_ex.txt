@@ -41,28 +41,27 @@ backwards to the previous word, hit b. To go to the end end of the next word,
 hit e. Try moving about this paragraph using w, e an b.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Lession 1.3: Text editing - deletion
-Instructions: Correct the lines of text below by deleting the
-unneccesary characters with  x . Hint: use 0 to return to the left.
+## x
 
-Far out in the uncharted backwaters of the unfashionable end of the 
-Weestern sSpiral arrm ohf thze Gallaxy lies ae sm*all unregarded yellow syun.
+x deletes a character. Try deleting these x's: xxxxxx
 
-Iti ijs aaa trufth universalllly acknowledgegeged, that a sxingle manr iin 
-possessibon of aw gopod fort^une muost bee in wantxxx of a) wife.&&
-
-Int waes lourvve at first sighght.. The feeirst time Yossarian sa9w th$e 
-chaplain heee fell maaadly in lov*ve with himmmm. 
-
-Aaas Gregor Samsa awokke onne moorning frrom uneeasy ddreams hhe founnd 
-himmself trransformed inn hiis bbed intoo a giiigantic insecct.
+Then correct the lines of text below by deleting the
+unneccesary spaces with x.
 
 It was  a bright cold day in  April, and the clocks  were striking   thirteen.
 
-Twwo householllds, bothe alikee inf dignityyyy,
-IIIn fair% Verrrrona, whereq wiie lay# ou987r sc"ene,
-Frrom ++ancient grudddge brrrreak tto #new mutiny,,,
-Where7 ciiviil blo*od mak^es civil h=ands uncclean.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## d 
+
+d deletes bigger things, like lines and words. dd deletes the line you're on. Try getting rid of this one:
+ddddddddddddddddddddddddddddddddddddddddddddddd
+
+d can also be combined with *any movement*, to delete up to the end of the movement. For instance, dw deletes
+everything until the beginning of the next word, d$ everything from your cursor to the end of the line.
+
+Try deleting THIS word with only a single command, such as dw. Also get rid of ALL THIS EXTRA AT THE END OF LINE.
+
+If you end up regretting any of the destruction, hit u to undo.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Lesson 1.4: Text editing - insertion
